@@ -45,5 +45,5 @@ mavenやgradleでも同じようにできます。
     $ ant -version
     Apache Ant(TM) version 1.x.x compiled on [month] [day] [year]
 ```
-Apache Ant... が表示されれば成功
+Apache Ant(TM)... が表示されれば成功
 
