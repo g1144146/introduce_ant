@@ -6,22 +6,36 @@
 
 ## Antをダウンロード
 
-1. [Apache Ant](http://ant.apache.org/)にてAntをダウンロード
+1. [Apache Ant](http://ant.apache.org/)にてパッケージをダウンロード
 
-2. ダウンロードされたAntがあるディレクトリにてzipを解凍
+2. ダウンロードされたAntがあるディレクトリにて、パッケージを解凍
 
     `$ unzip apache-ant-1.x.x-bin.zip`
 
-3. 解凍したフォルダを移動
+3. 解凍したフォルダを移動（移動先はお好みで）
 
     * コピーする場合
 
-        `$ cp apache-ant-1.x.x/ /usr/local/`
+        `$ sudo cp apache-ant-1.x.x/ /usr/local/`
 
     * 移動する場合
 
-        `$ mv apache-ant-1.x.x/ /usr/local/`
+        `$ sudo mv apache-ant-1.x.x/ /usr/local/`
 
-    * 権限がない場合は、先頭に`sudo`をつける
+    * シンボリックリンクの場合
+
+        `$ sudo ln -s apache-ant-1.x.x/ /usr/local/ `
 
 ## 環境変数を設定
+
+1. .bash_profileを編集
+
+    `$ nano ~/.bash_profile`
+
+2. .bash_profileにPATHを追加
+
+    export ANT_HOME=/usr/bin/apache-ant-1.x.x
+
+    export PATH=$PATH:$ANT_HOME/bin
+
+3. 追加したPATHを反映
