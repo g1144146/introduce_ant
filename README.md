@@ -24,7 +24,7 @@
 
     * シンボリックリンクの場合
 
-        `$ sudo ln -s apache-ant-1.x.x/ /usr/local/ `
+        `$ sudo ln -s apache-ant-1.x.x/ /usr/local/`
 
 ## 環境変数を設定
 
@@ -34,8 +34,7 @@
 
 2. .bash_profileにPATHを追加
 
-    export ANT_HOME=/usr/bin/apache-ant-1.x.x
-
+    export ANT_HOME=/usr/bin/apache-ant-1.x.x  
     export PATH=$PATH:$ANT_HOME/bin
 
 3. 追加したPATHを反映
