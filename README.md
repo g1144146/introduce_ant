@@ -14,16 +14,12 @@
 
 3. 解凍したフォルダを移動
 
-* コピーする場合
+    * コピーする場合
 
-```
-$ cp apache-ant-1.x.x/ /usr/local/
-```
+        `$ cp apache-ant-1.x.x/ /usr/local/`
 
-* 移動する場合
+    * 移動する場合
 
-```
-$ mv apache-ant-1.x.x/ /usr/local/
-```
+        `$ mv apache-ant-1.x.x/ /usr/local/`
 
-* 権限がないと言われたら、先頭に`sudo`をつける
+    * 権限がないと言われたら、先頭に`sudo`をつける
