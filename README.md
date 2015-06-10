@@ -38,3 +38,13 @@
     export PATH=$PATH:$ANT_HOME/bin
 
 3. 追加したPATHを反映
+
+    `$ source ~/.bash_profile`
+
+4. 確認
+```
+    $ ant -version
+    Apache Ant(TM) version 1.x.x compiled on [month] [day] [year]
+```
+Apache Ant... が表示されれば成功
+
