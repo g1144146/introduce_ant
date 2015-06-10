@@ -9,9 +9,8 @@
 1. [Apache Ant](http://ant.apache.org/)にてAntをダウンロード
 
 2. ダウンロードされたAntがあるディレクトリにてzipを解凍
-
 ```
-$ unzip apache-ant-1.x.x-bin.zip
+    $ unzip apache-ant-1.x.x-bin.zip
 ```
 
 3. 解凍したフォルダを移動
