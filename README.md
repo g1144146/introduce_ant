@@ -32,6 +32,8 @@
 
     `$ nano ~/.bash_profile`
 
+    `ctrl + o`で保存、`ctrl + x`で終了
+
 2. .bash_profileにPATHを追加
 
     export ANT_HOME=/usr/local/apache-ant-1.x.x  
