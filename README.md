@@ -17,14 +17,11 @@ mavenやgradleでも同じようにできます。
 3. 解凍したフォルダを移動（移動先はお好みで）
 
     * コピーする場合
-
-        `$ sudo cp apache-ant-1.x.x/ /usr/local/`
+        * `$ sudo cp apache-ant-1.x.x/ /usr/local/`
     * 移動する場合
-
-        `$ sudo mv apache-ant-1.x.x/ /usr/local/`
+        * `$ sudo mv apache-ant-1.x.x/ /usr/local/`
     * シンボリックリンクの場合
-
-        `$ sudo ln -s apache-ant-1.x.x/ /usr/local/`
+        * `$ sudo ln -s apache-ant-1.x.x/ /usr/local/`
 
 ## 環境変数を設定
 
