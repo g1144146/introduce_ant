@@ -10,9 +10,7 @@
 
 2. ダウンロードされたAntがあるディレクトリにてzipを解凍
 
-```
-    $ unzip apache-ant-1.x.x-bin.zip
-```
+    `$ unzip apache-ant-1.x.x-bin.zip`
 
 3. 解凍したフォルダを移動
 
@@ -24,6 +22,6 @@
 
         `$ mv apache-ant-1.x.x/ /usr/local/`
 
-    * 権限がないと言われたら、先頭に`sudo`をつける
+    * 権限がない場合は、先頭に`sudo`をつける
 
-## 
+## 環境変数を設定
